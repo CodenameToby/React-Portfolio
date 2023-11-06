@@ -1,8 +1,8 @@
 import React from 'react';
 // template of each one project
-export default function Test() {
+function Project() {
     return (
-      <div>
+      <div className='projectPage'>
         <h1>Test</h1>
         <p>
         <img src= "./public/assets/weatherApp.jpg" alt='Project Screenshot'> 
@@ -10,4 +10,6 @@ export default function Test() {
       </p>
       </div>
     );
-  }
+  };
+
+  export default Project;
