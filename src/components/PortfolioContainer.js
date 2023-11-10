@@ -1,10 +1,10 @@
 import React from 'react';
-import Project from "./Project"
+import projectSingle from "./Project"
 
 function PortfolioContainer() {
   return (
-    <div>
-      <Project />
+    <div className='portfolioContainer'>
+      <projectSingle />
     </div>
   );
 }
