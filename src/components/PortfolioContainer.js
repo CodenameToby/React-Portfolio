@@ -1,12 +1,13 @@
 import React from 'react';
-import projectSingle from "./Project"
+import SingleProject from "./Project"
 
 function PortfolioContainer() {
   return (
     <div className='portfolioContainer'>
-      <projectSingle />
+      <SingleProject />
     </div>
   );
 }
 
 export default PortfolioContainer;
+

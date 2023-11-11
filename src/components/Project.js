@@ -1,9 +1,9 @@
 import React from 'react';
 
 // template of each one project
-function projectSingle() {
+function singleProject() {
     return (
-      <div className='projectSingle'>
+      <div className='singleProject'>
         <h1>Test</h1>
         <p>
         <img src= "./public/assets/weatherApp.jpg" alt='Project Screenshot'> 
@@ -13,4 +13,4 @@ function projectSingle() {
     );
   };
 
-  export default projectSingle;
+  export default singleProject;
